@@ -14,7 +14,7 @@ def calculate_bmi(height, weight):
         print("You are Normal Weight")
         w = 0
 
-    elif(bmi<25.0):
+    elif(25.0<bmi):
         print("You are Over Weight")
         w = 1
 
